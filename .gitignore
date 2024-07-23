@@ -14,6 +14,7 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 # dotenv environment variables file
 .env
 .env.test
+.idx
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
