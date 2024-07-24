@@ -1,9 +1,10 @@
+import Container from "../Global/containers/Container";
 
 
 export default function Services() {
     return (
-        <div>
+        <Container>
             <h2>service</h2>
-        </div>
+        </Container>
     )
 }

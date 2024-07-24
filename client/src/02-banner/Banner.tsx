@@ -1,9 +1,10 @@
+import Container from "../Global/containers/Container";
 
 
 export default function Banner() {
     return (
-        <div>
-            <h2>banner</h2>
-        </div>
+        <Container>
+            <h2 className="text-red-200">banner</h2>
+        </Container>
     )
 }

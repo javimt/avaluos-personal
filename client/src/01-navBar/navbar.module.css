@@ -1,0 +1,23 @@
+
+.mainContainer{
+    position: relative;
+    cursor: pointer;
+}
+
+.mainContainer:after{
+    content:'';
+    position: absolute;
+    bottom: 3px;
+    left: 0px;
+    right: 0px;
+    height: 2px;
+    background-color: #35B8D6;
+    transform: translateY(10px);
+    transition: transform 0.5s ease;
+    
+}
+
+
+.mainContainer:hover:after {
+    transform: translateY(0px);
+  }

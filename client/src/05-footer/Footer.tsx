@@ -1,9 +1,10 @@
+import Container from "../Global/containers/Container";
 
 
 export default function Footer() {
     return (
-        <div>
+        <Container>
             <h2>footer</h2>
-        </div>
+        </Container>
     )
 }
