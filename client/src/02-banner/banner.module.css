@@ -1,0 +1,48 @@
+
+
+
+.filter{
+    animation: animateFilter 1s ease-in-out forwards;
+}
+.filter2{
+    animation: animateFilter 1s ease-in-out forwards;
+    animation-delay: 200ms;
+}
+.contact{
+    animation: animateContact 1s ease-in-out forwards;
+    animation-delay: 1s;
+    transform: translateY(0);
+}
+
+.input{
+    animation: animateInput 1s ease-in-out forwards;
+    animation-delay: 2s;
+    transform: translateY(0);
+}
+@keyframes animateFilter {
+    from{
+        transform: translateX(0%);
+    }to{
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes animateContact {
+    from{
+        transform: translateY(100%);
+
+    }to{
+        transform: translateY(16%);
+        opacity: 1;
+    }
+}
+
+@keyframes animateInput {
+    from{
+        transform: translateY(100px);
+        opacity: 0;
+    }to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
