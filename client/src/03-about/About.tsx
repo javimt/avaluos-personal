@@ -1,4 +1,4 @@
-import GridContainer from "../Global/GridContainer";
+import GridContainer from "../Global/containers/GridContainer";
 import Container from "../Global/containers/Container";
 import Styles from './about.module.css'
 import { MdBusinessCenter } from "react-icons/md";

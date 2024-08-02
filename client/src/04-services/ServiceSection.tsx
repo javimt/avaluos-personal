@@ -1,5 +1,5 @@
 import React from "react";
-import GridContainer from "../Global/GridContainer";
+import GridContainer from "../Global/containers/GridContainer";
 import Container from "../Global/containers/Container";
 import Styles from './services.module.css'
 
@@ -11,7 +11,7 @@ export default function ServiceSection({ image, title, subtitle, description, nu
             {
                 inversed ?
                     <GridContainer>
-                        <section className="flex justify-center items-center  ">
+                        <section className="flex justify-center items-center   ">
                             <div className={`${Styles.imageSection} md:size-[450px] size-[300px] bg-cover  bg-center rounded-full relative`} style={{ backgroundImage: `url(${image})` }}>
                                 <div className="absolute top-0 left-0 w-full h-full rounded-full bg-black/40"></div>
                             </div>
@@ -27,7 +27,6 @@ export default function ServiceSection({ image, title, subtitle, description, nu
                                 <p className="text-gray-400 text-[16px] mt-2 xl:w-2/3 font-popins font-[300]">{description}</p>
                                 {children}
                             </div>
-
                         </section>
                     </GridContainer>
                     :
@@ -44,14 +43,13 @@ export default function ServiceSection({ image, title, subtitle, description, nu
                             {children}
                         </section>
                         {/* ---------- */}
-                        <section className="flex  items-center">
-                            <div className={`${Styles.imageSection} md:size-[450px] size-[300px] bg-cover  bg-center rounded-full relative`} style={{ backgroundImage: `url(${image})` }}>
+                        <section className="flex  items-center justify-center md:justify-start ">
+                            <div className={`${Styles.imageSection} md:size-[450px]  size-[300px] bg-cover  bg-center rounded-full relative`} style={{ backgroundImage: `url(${image})` }}>
                                 <div className="absolute top-0 left-0 w-full h-full rounded-full bg-black/40"></div>
                             </div>
                         </section>
                     </GridContainer>
             }
-
         </Container>
     )
 }
