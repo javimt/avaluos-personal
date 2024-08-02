@@ -1,0 +1,17 @@
+.inView {
+    animation: animateInView 1s ease-in-out forwards;
+    animation-delay: 500ms;
+}
+
+
+@keyframes animateInView {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

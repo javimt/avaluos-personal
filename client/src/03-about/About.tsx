@@ -11,8 +11,6 @@ export default function About() {
                 <div className="w-[150px] rounded-lg  h-[10px] bg-primary" />
                 <MdBusinessCenter className="text-primary text-[70px]" />
                 <div className="w-[150px] rounded-lg h-[10px] bg-primary" />
-
-
             </div>
             <GridContainer>
                 <section className="flex justify-center items-center">
