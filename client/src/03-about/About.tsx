@@ -5,9 +5,10 @@ import { MdBusinessCenter } from "react-icons/md";
 
 export default function About() {
     return (
+       
+        
         <Container>
-            <div className="flex gap-3 justify-center items-center h-[300px] ">
-
+            <div className="flex gap-3 justify-center items-center h-[100px] mb-20 ">
                 <div className="w-[150px] rounded-lg  h-[10px] bg-primary" />
                 <MdBusinessCenter className="text-primary text-[70px]" />
                 <div className="w-[150px] rounded-lg h-[10px] bg-primary" />
@@ -27,6 +28,7 @@ export default function About() {
                 </section>
             </GridContainer>
         </Container>
+      
     )
 }
 
