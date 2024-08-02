@@ -1,0 +1,9 @@
+
+
+.imageSection{
+    animation: animateImage 20s ease-in-out infinite;
+    animation-delay: 1s;
+}
+
+
+

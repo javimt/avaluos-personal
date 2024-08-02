@@ -19,6 +19,34 @@
     animation-delay: 2s;
     transform: translateY(0);
 }
+
+.title{
+    animation: animateTitle 1s ease-in-out forwards;
+    animation-delay: 0.8s;
+}
+
+.subTitle{
+    animation: animateTitle 1s ease-in-out forwards;
+    animation-delay: 1s;
+    
+}
+
+.barra{
+    animation: animateBara 1s ease-in-out forwards;
+    animation-delay: 2s;
+    
+}
+
+.description{
+    animation: animateTitle 1s ease-in-out forwards;
+    animation-delay: 1.2s;
+}
+.button{
+    animation: animateTitle 1s ease-in-out forwards;
+    animation-delay: 1.4s;
+}
+
+
 @keyframes animateFilter {
     from{
         transform: translateX(0%);
@@ -32,7 +60,7 @@
         transform: translateY(100%);
 
     }to{
-        transform: translateY(16%);
+        transform: translateY(0%);
         opacity: 1;
     }
 }
@@ -44,5 +72,29 @@
     }to{
         transform: translateY(0);
         opacity: 1;
+    }
+}
+
+
+@keyframes animateTitle {
+    from{
+        transform: translateY(20%);
+        filter: blur(20px);
+    }to{
+        transform: translateY(0);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes animateBara {
+    from{
+        transform: translateX(-200px);
+        
+    }to{
+        transform: translateX(0px) rotate(360deg);
+        
+        opacity: 1;
+
     }
 }

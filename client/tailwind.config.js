@@ -11,6 +11,10 @@ export default {
         secondary: '#35B8D6',
         third:'#D2CB3C'
       },
+      fontFamily: {
+        sans: ['Fira Sans'],
+        popins: ["Poppins", "sans-serif"]
+      },
     },
   },
   plugins: [],
