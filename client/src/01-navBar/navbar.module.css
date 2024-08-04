@@ -8,7 +8,6 @@
     animation: animateLogo 2s ease-in-out forwards;
     animation-delay: 2s;
     transform: translateZ(0%);
-    
 }
 
 .mainContainer:after{
