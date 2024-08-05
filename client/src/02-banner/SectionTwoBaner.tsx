@@ -1,4 +1,5 @@
 import Styles from "./banner.module.css"
+import { BiMailSend } from "react-icons/bi";
 
 export default function SectionTwoBaner() {
     
@@ -19,7 +20,7 @@ export default function SectionTwoBaner() {
                                     <textarea className="rounded p-2 border text-xs font-[400] font-popins" placeholder="message here!" rows={5} ></textarea>
                                 </div>
                                 <div className={`${Styles.input} xl:p-5 flex justify-center items-center w-full translate-y-20 opacity-0`}>
-                                    <button className="w-full bg-secondary text-white font-popins font-semibold p-2 rounded hover:bg-primary hover:text-third transition-all delay-200">Send Message</button>
+                                    <button className="w-full flex justify-center items-center bg-secondary text-white font-popins font-semibold p-2 rounded hover:bg-primary hover:text-third transition-all delay-200">Send Message {<BiMailSend className="text-2xl ml-2 -rotate-[25deg]" />}</button>
                                 </div>
                             </form>
                         </div>

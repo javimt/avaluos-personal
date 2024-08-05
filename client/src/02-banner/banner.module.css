@@ -10,13 +10,13 @@
 }
 .contact{
     animation: animateContact 1s ease-in-out forwards;
-    animation-delay: 1s;
+    animation-delay: 0.5s;
     transform: translateY(0);
 }
 
 .input{
     animation: animateInput 1s ease-in-out forwards;
-    animation-delay: 2s;
+    animation-delay: 1.3s;
     transform: translateY(0);
 }
 
@@ -33,7 +33,7 @@
 
 .barra{
     animation: animateBara 1s ease-in-out forwards;
-    animation-delay: 2s;
+    animation-delay: 1s;
     
 }
 

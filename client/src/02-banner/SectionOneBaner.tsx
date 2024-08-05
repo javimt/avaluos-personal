@@ -1,5 +1,5 @@
 import Styles from "./banner.module.css"
-
+import { IoLogoWhatsapp } from "react-icons/io";
 
 export default function SectionOneBaner() {
   return (
@@ -15,7 +15,9 @@ export default function SectionOneBaner() {
         <p className={`${Styles.description} text-center xl:text-start text-white font-popins text-2xl opacity-0`}>Pedi tu avalúo rapido y con solo un click!</p>
       </div>
       <div className="flex justify-center xl:justify-start items-center w-full xl:py-5">
-        <button className={`bg-secondary text-white px-8 py-4 mt-16 font-popins font-bold rounded-lg cursor-pointer hover:bg-primary hover:text-third transition-all delay-200  ${Styles.button} opacity-0 text-xl `}>Mas informacion</button>
+        <button className={`bg-secondary flex justify-center items-center text-white px-8 py-4 mt-16 font-popins font-bold rounded-lg cursor-pointer hover:bg-primary hover:text-third transition-all delay-200  ${Styles.button} opacity-0 text-xl `}>
+          {<IoLogoWhatsapp className="text-2xl mr-2" />}Whatsapp Now!
+          </button>
       </div>
     </section>
   )
