@@ -1,4 +1,4 @@
-import logo1 from "../assets/logo1.jpeg"
+import logo1 from "../assets/logo nav.jpeg"
 import Li from "./Li"
 import { GiVibratingSmartphone } from "react-icons/gi";
 import Styles from './navbar.module.css'
