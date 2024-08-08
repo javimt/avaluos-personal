@@ -46,6 +46,14 @@
     animation-delay: 1.4s;
 }
 
+.inView{
+    transform: translateY(0)!important;
+    opacity: 1 !important;
+    animation-delay: 0.5s;
+    transition: all 2s ease-in-out;
+}
+
+
 
 @keyframes animateFilter {
     from{

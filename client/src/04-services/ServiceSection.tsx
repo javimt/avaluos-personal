@@ -19,12 +19,12 @@ export default function ServiceSection({ image, title, subtitle, description, nu
                         {/* ---------- */}
                         <section >
                             <div className="">
-                                <h1 className="text-gray-400 text-[50px] my-2 font-popins">{"#" + number}</h1>
+                                <h1 className="text-primary text-[50px] my-2 font-popins">{"#" + number}</h1>
                             </div>
                             <div className="max-w-[700px]">
                                 <h1 className="text-primary text-4xl my-2 font-popins">{title}</h1>
                                 <h2 className="text-secondary text-2xl font-popins">{subtitle}</h2>
-                                <p className="text-gray-400 text-[16px] mt-2 xl:w-2/3 font-popins font-[300]">{description}</p>
+                                <p className="text-primary text-[16px] mt-2 xl:w-2/3 font-popins font-[300]">{description}</p>
                                 {children}
                             </div>
                         </section>
@@ -38,7 +38,7 @@ export default function ServiceSection({ image, title, subtitle, description, nu
                                 </div>
                                 <h1 className="text-primary text-4xl my-2 font-popins">{title}</h1>
                                 <h2 className="text-secondary text-2xl font-popins">{subtitle}</h2>
-                                <p className="text-gray-400 text-[16px] mt-2 xl:w-2/3 font-popins font-[300]">{description}</p>
+                                <p className="text-primary text-[16px] mt-2 xl:w-2/3 font-popins font-[300]">{description}</p>
                             </div>
                             {children}
                         </section>

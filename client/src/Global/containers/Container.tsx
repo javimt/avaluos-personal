@@ -32,8 +32,8 @@ export default function Container({ children }: { children: React.ReactNode }) {
     }, []);
 
     return (
-        <div ref={ref}  className="relative flex flex-col mx-auto xl:px-52 md:px-5 px-2 xl:py-20 md:py-12 py-10  h-full opacity-0">
-            {children}
+        <div ref={ref}  className="relative flex flex-col mx-auto xl:px-52 md:px-5 px-2 xl:py-20 md:py-12 py-10  h-full opacity-0 overflow-hidden">
+            { children }
         </div>
     );
 }

@@ -1,6 +1,6 @@
 
 import ServiceSection from "./ServiceSection";
-import { servicesInfo } from "./servicesInfo";
+import { servicesInfo } from "./servicesInfo.tsx";
 import { HiInformationCircle } from "react-icons/hi";
 import { useState, useEffect } from 'react';
 
@@ -30,7 +30,10 @@ export default function Services() {
               image={item.image} 
               number={item.number} 
               inversed={screenWidth < 450 ? true : item.inversed} 
-            />
+              
+            >
+              {item.child}
+            </ServiceSection>
           </section>
         </div>
       ))}
