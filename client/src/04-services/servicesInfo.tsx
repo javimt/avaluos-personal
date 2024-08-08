@@ -19,7 +19,7 @@ export const servicesInfo = [
         image: 'https://i0.wp.com/accounter.co/cdn/2020/01/avaluo.jpg?fit=768%2C480&ssl=1',
         number: 2,
         inversed: true,
-        child:<List items={['opcion 1', 'opcion 2', 'opcion 3']}/>
+        child:<List items={['Viviendas', 'Apartamentos', 'Galpones', 'Comercios']}/>
     },
     {
         title: 'Qué tipos de inmuebles avaluamos?',
@@ -50,12 +50,12 @@ function List ({items}:{items:string[]}){
 
     return (
         
-            <ul className="flex flex-col gap-2 items-start w-full md:px-8 py-5">
+            <ul className="flex flex-col gap-2 items-start w-full  py-5">
             {
                 items && items.map((item) => (
-                    <li className="flex   items-start justify-start gap-2  max-w-[700px] w-full ">
-                        <GrStatusGood className="text-secondary"/>
-                        <p className="text-primary font-popins font-[400] ">{item}</p>
+                    <li className="flex   items-center justify-start gap-2  max-w-[700px] w-full ">
+                        <GrStatusGood className="text-third"/>
+                        <p className="text-white font-popins font-[400] bg-secondary p-1 rounded">{item}</p>
     
                     </li>
                 ))

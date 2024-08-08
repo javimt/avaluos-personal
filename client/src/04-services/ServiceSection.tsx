@@ -19,13 +19,15 @@ export default function ServiceSection({ image, title, subtitle, description, nu
                         {/* ---------- */}
                         <section >
                             <div className="">
-                                <h1 className="text-primary text-[50px] my-2 font-popins">{"#" + number}</h1>
+                                <h1 className="text-gray-400 text-[60px] my-2 font-popins">{"#" + number}</h1>
                             </div>
                             <div className="max-w-[700px]">
                                 <h1 className="text-primary text-4xl my-2 font-popins">{title}</h1>
                                 <h2 className="text-secondary text-2xl font-popins">{subtitle}</h2>
                                 <p className="text-primary text-[16px] mt-2 xl:w-2/3 font-popins font-[300]">{description}</p>
-                                {children}
+                                <div className="flex  w-full">
+                                    {children}
+                                </div>
                             </div>
                         </section>
                     </GridContainer>
@@ -34,13 +36,15 @@ export default function ServiceSection({ image, title, subtitle, description, nu
                         <section className="flex flex-col items-end" >
                             <div className="flex flex-col max-w-[700px]">
                                 <div className=" ">
-                                    <h1 className="text-gray-400 text-[50px] my-2 font-popins">{"#" + number}</h1>
+                                    <h1 className="text-gray-400 text-[60px] my-2 font-popins">{"#" + number}</h1>
                                 </div>
                                 <h1 className="text-primary text-4xl my-2 font-popins">{title}</h1>
                                 <h2 className="text-secondary text-2xl font-popins">{subtitle}</h2>
                                 <p className="text-primary text-[16px] mt-2 xl:w-2/3 font-popins font-[300]">{description}</p>
                             </div>
-                            {children}
+                            <div className="flex px-8  w-full">
+                                {children}
+                            </div>
                         </section>
                         {/* ---------- */}
                         <section className="flex  items-center justify-center md:justify-start ">
