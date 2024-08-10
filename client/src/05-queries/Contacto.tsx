@@ -40,7 +40,7 @@ export default function Contact() {
     return (
         <>
             {
-                screenWidth > 450 ?
+                screenWidth > 550 ?
                     <Container>
                         <div  className="absolute  top-0 left-0 w-full h-full bg-cover bg-center " style={{ backgroundImage: 'url(https://png.pngtree.com/background/20231101/original/pngtree-stylish-loft-office-with-chic-boardroom-and-conference-table-for-business-picture-image_5821787.jpg)' }}>
                             <div className="w-full h-full backdrop-blur-sm">
@@ -53,7 +53,7 @@ export default function Contact() {
                             </section>
                             <section className="relative z-10 flex justify-center items-center h-full xl:w-[900px] py-5 px-3 md:px-10 xl:px-0">
 
-                                <div className={`${Styles.contact} xl:w-1/2 w-full md:h-4/5  bg-black/80  py-12 rounded-[30px] opacity-0 shadow-2xl `}>
+                                <div className={`${Styles.contact} xl:w-1/2 w-full md:h-/5  bg-black/80  py-12 rounded-[30px] opacity-0 shadow-2xl `}>
                                     <form action="" className="h-full flex flex-col justify-center gap-2 items-center w-full px-10 font-sans">
                                         <div className={` ${Styles.input} flex gap-4  w-full  opacity-0 pt-2 justify-center text-white font-sans text-3xl font-[500]`}>
                                             <h2 className="text-third">Obtene tu avaluo!</h2>

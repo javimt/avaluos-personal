@@ -29,7 +29,7 @@ export default function Services() {
               description={item.description} 
               image={item.image} 
               number={item.number} 
-              inversed={screenWidth < 450 ? true : item.inversed} 
+              inversed={screenWidth < 550 ? true : item.inversed} 
               
             >
               {item.child}
