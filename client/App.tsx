@@ -4,7 +4,7 @@ import Banner from "./src/02-banner/Banner";
 import Services from "./src/04-services/Services";
 import Footer from "./src/06-footer/Footer";
 import About from "./src/03-about/About";
-import Contact from "./src/05-queries/Contacto";
+import Contact from "./src/05-contact/Contacto";
 
 export default function App() {
 

@@ -54,8 +54,8 @@ function List ({items}:{items:string[]}){
             {
                 items && items.map((item) => (
                     <li className="flex   items-center justify-start gap-2  max-w-[700px] w-full ">
-                        <GrStatusGood className="text-third"/>
-                        <p className="text-white font-popins font-[400] bg-secondary p-1 rounded">{item}</p>
+                        <GrStatusGood className="text-primary"/>
+                        <p className="text-white font-popins text-xs font-[400] bg-primary p-1 rounded">{item}</p>
     
                     </li>
                 ))

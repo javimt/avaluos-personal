@@ -24,7 +24,7 @@ export default function ServiceSection({ image, title, subtitle, description, nu
                             <div className="max-w-[700px]">
                                 <h1 className="text-primary text-4xl my-2 font-popins">{title}</h1>
                                 <h2 className="text-secondary text-2xl font-popins">{subtitle}</h2>
-                                <p className="text-primary text-[16px] mt-2 xl:w-2/3 font-popins font-[300]">{description}</p>
+                                <p className="text-gray-500 text-[16px] mt-2 xl:w-2/3 font-popins font-[400]">{description}</p>
                                 <div className="flex  w-full">
                                     {children}
                                 </div>
@@ -40,7 +40,7 @@ export default function ServiceSection({ image, title, subtitle, description, nu
                                 </div>
                                 <h1 className="text-primary text-4xl my-2 font-popins">{title}</h1>
                                 <h2 className="text-secondary text-2xl font-popins">{subtitle}</h2>
-                                <p className="text-primary text-[16px] mt-2 xl:w-2/3 font-popins font-[300]">{description}</p>
+                                <p className="text-gray-500 text-[16px] mt-2 xl:w-2/3 font-popins font-[400]">{description}</p>
                             </div>
                             <div className="flex px-8  w-full">
                                 {children}
