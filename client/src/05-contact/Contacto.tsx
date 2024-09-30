@@ -40,9 +40,9 @@ export default function Contact() {
                 observer.disconnect();
             }
         };
-    }, []);
+    },[]);
 
-    return (
+    return(
         <>
             {
                 screenWidth > 550 ?
