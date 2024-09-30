@@ -40,7 +40,7 @@ export default function Contact() {
                 observer.disconnect();
             }
         };
-    },[]);
+    }, []);
 
     return (
         <>
